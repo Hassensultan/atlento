@@ -1,0 +1,621 @@
+
+* {
+
+    -webkit-box-sizing: border-box;
+
+    -moz-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+body {
+
+    font-family: "Segoe UI", Arial, sans-serif;
+    
+}
+
+
+.container {
+
+    width: 100%;
+
+    height: fit-content;
+
+    margin: 0px auto;
+
+    max-width: 1518px;
+
+}
+
+.header {
+
+    width: 100%;
+
+    height: auto;
+
+    font-family: Verdana, sans-serif;
+}
+
+.home {
+
+    width: 100%;
+
+    height: 54px;
+
+    color: black;
+
+    background-color: rgb(255, 255, 255) ;
+
+    position: fixed;
+
+    left: 0;
+
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.164) , 0px 2px 10px 0px rgba(0, 0, 0, 0.158);
+
+    z-index: 10;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0px 15px;
+
+    font-size: 15px;
+    
+    font-weight: normal;
+
+}
+
+.logo {
+
+    text-decoration: none;
+
+    color: black;
+
+    padding: 8px 16px;
+
+    letter-spacing: 4px;
+
+}
+
+.links {
+
+    color: black;
+
+    display: flex;
+
+    padding: 10px 0px;
+    
+}
+
+.links a {
+
+    color: black;
+
+    text-decoration: none;
+
+    display: flex;
+
+    letter-spacing: 4px;
+
+    background-color: inherit;
+
+    padding: 8px 16px;
+
+}
+
+.logo:hover {
+
+    background-color: rgba(31, 1, 1, 0.212);
+
+}
+
+.links a:hover{ 
+
+    background-color: rgba(0, 0, 0, 0.212);
+
+}
+
+
+.img-container {
+
+    width: 100%;
+
+    height: fit-content;
+
+    z-index: 2;
+
+    position: relative;
+
+    padding: 0px 15px;
+}
+
+.img-container img {
+
+    width: 100%;
+
+}
+
+.cen-logo {
+
+    width: 305px;
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50% , -30%);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    padding: 5px;
+    
+}
+
+.cen-logo :first-child {
+
+    background-color: black;
+
+    padding: 8px 17px;
+
+    font-weight: bold;
+
+    color: rgb(255, 255, 255);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 35px;
+
+    opacity: 0.77;
+
+    letter-spacing: 3px;
+    
+}
+
+.cen-logo :last-child {
+
+    color: white;
+
+    letter-spacing: 4px;
+
+    font-size: 36px;
+}
+
+.nav {
+
+    width: 100%;
+
+    height: fit-content;
+
+    padding: 0px 15px;
+    
+}
+
+.section-title {
+
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    font-weight: normal;
+
+    height: 70px;
+
+    margin: 25px 0;
+
+    display: flex;
+
+    align-items: center;
+
+    font-size: 25px;
+
+    position: relative;
+}
+
+
+.section-title::before {
+
+    content: '';
+
+    position: absolute;
+
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.059);
+
+    height: 0.5px;
+
+    bottom: 0px;
+
+}
+
+.product-con {
+
+    width: 100%;
+
+    height: fit-content;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    padding: 0px;
+
+}
+
+.product-con div {
+
+    width: calc(25% - 10px);
+
+    color: white;
+    
+    display: flex;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+    color: white;
+
+    margin-bottom: 15px;
+
+    position: relative;
+
+}
+
+.product-con div::before {
+
+    content: '';
+
+    padding: 10px 15px;
+
+    width: fit-content;
+
+    font-family: Verdana, sans-serif;
+
+    background-color: black;
+
+    position: absolute;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 17px;
+
+}
+
+.product-con div:nth-child(1)::before {
+
+    content: 'Summer House';
+
+}
+.product-con div:nth-child(2)::before {
+
+    content: 'Brick House';
+
+}
+.product-con div:nth-child(3)::before {
+
+    content: 'Renovated';
+
+}
+.product-con div:nth-child(4)::before {
+
+    content: 'Barn House';
+
+}
+.product-con div:nth-child(5)::before {
+
+    content: 'Summer House';
+
+}
+.product-con div:nth-child(6)::before {
+
+    content: 'Brick House';
+
+}
+.product-con div:nth-child(7)::before {
+
+    content: 'Renovated';
+
+}
+.product-con div:nth-child(8)::before {
+
+    content: 'Barn House';
+
+}
+
+ .product-con div img {
+
+    width: 100%;
+
+} 
+
+
+.p-arti {
+
+    margin-bottom: 55px;
+
+    font-style: 15px;
+
+    text-align: left;
+
+}
+
+.product-con-2 {
+
+    width: 100%;
+
+    height: fit-content;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+}
+
+.product-con-2 div {
+
+    width: calc(25% - 10px);
+    
+    overflow: hidden;
+
+    margin-bottom: 25px;
+
+}
+
+.product-con-2 div img {
+
+    width: 100%;
+
+    margin-bottom: 15px;
+
+    filter: grayscale(0.8);
+
+}
+
+.product-con-2 div h1 {
+
+    margin-bottom: 15px;
+
+    font-size: 23px;
+
+    font-weight: normal;
+
+}
+
+.product-con-2 div p:first-of-type {
+
+    margin-bottom: 15px;
+
+    color: #828282;
+
+}
+
+.product-con-2 div p:last-of-type {
+
+    font-weight: 500;
+
+}
+
+.product-con-2 div input {
+
+    width: 100%;
+
+    padding: 10px 15px;
+
+    border: none;
+
+    font-family: Verdana,sans-serif;
+
+    font-size: 15px;
+
+    margin-top: 15px;
+
+}
+
+.form-section {
+
+    width: 100%;
+
+    height: fit-content;
+
+    max-width: 100%;
+}
+
+.form-section p {
+
+    font-family: Verdana,sans-serif;
+
+    font-size: 15px;
+
+    font-weight: 400;
+
+    color: black;
+
+    margin-bottom: 15px;
+}
+
+.form-section input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin: 10px 0px;
+
+    border: 0.5px solid #a7adb5;
+
+}
+
+.form-section input::placeholder {
+
+    color: #a7adb5;
+
+    font-weight: 500;
+
+    font-family: Verdana, sans-serif;
+
+}
+
+.form-section button {
+
+    font-family: Verdana, sans-serif;
+
+    font-weight: inherit;
+
+    padding: 10px 16px;
+
+    background-color: black;
+
+    font-size: inherit;
+
+    color: white;
+
+    border: none;
+
+    margin-top: 16.5px;
+
+    margin-bottom: 48px;
+
+}
+
+.form-section .t-pic {
+
+    width: 100%;
+
+}
+
+
+.footer {
+
+    color:#fff;
+
+    background-color:black;
+
+    text-align:center;
+
+    display:inline-block;
+
+    width:100%;
+
+    height: auto;
+
+    padding: 32px 0px;
+
+    margin-top: 5px;
+
+    position: absolute;
+
+    left: 0;
+
+}
+
+.footer p a { 
+
+    color: #80cbc4;
+
+}
+
+@media (max-width:950px) {
+
+    .product-con div, .product-con-2 div {
+
+        width: calc(50% - 10px);
+
+    }
+
+    .section-title {
+
+        height: 90px;
+
+        margin: 10px 0px;
+
+    }
+
+
+    .img-container img {
+
+        width: 100%;
+
+        margin-top: 55px;
+
+    }
+
+}
+
+
+@media (max-width:600px) {
+
+    .links {
+
+        display: none;
+
+    }
+    
+    .cen-logo {
+
+        width: fit-content;
+
+    }
+
+    .cen-logo :last-child {
+
+        display: none;
+
+    }
+    
+    .product-con div ,.product-con-2 div {
+
+        width: calc(100%);
+
+    }
+
+    .product-con , .product-con-2 {
+
+        justify-content: center;
+
+    }
+
+    .section-title {
+
+        height: 90px;
+
+        margin: 10px 0px;
+
+    }
+
+    .img-container img {
+
+        margin-top: 55px;
+
+    }
+
+
+}
